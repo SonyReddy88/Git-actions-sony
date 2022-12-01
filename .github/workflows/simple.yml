@@ -2,7 +2,7 @@ name: Actions in action
 
 
 
-on:push:
+on: [push]
 
 jobs:
   run-shell-command:
