@@ -1,8 +1,6 @@
 name: Actions in action
 on:push:
 
-
-
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
