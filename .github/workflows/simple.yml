@@ -5,8 +5,8 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      -name: echo a message
-       -run: echo "Hello world!"
+     -name: echo a message
+     -run: echo "Hello world!"
  
 # on:
 #   push:
