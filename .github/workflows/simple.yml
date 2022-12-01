@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: echo a message
-        uses: echo "Hello world!"
+        uses: actions/setup-node@v3
 # jobs:
 # on: [push]
 
