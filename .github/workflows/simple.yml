@@ -1,7 +1,4 @@
 name: Actions in action
-
-
-
 on:push:
 
 jobs:
