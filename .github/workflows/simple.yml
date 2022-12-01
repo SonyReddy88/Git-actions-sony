@@ -1,13 +1,16 @@
 name: Actions in action
 
-on: [push]
+name: Actions in action
+
+on:push:
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      -name: echo a message
+      -run: echo "Hello world!"
  
- jobs:
- run-shell-command:
-  runs-on: ubuntu-latest
-  steps:
-  -name: echo a message
-    run: echo "Hello world!"
 # on:
 #   push:
 #     branches: [ "main" ]
