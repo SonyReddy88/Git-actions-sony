@@ -1,7 +1,7 @@
 name: Actions in action
  
-on:
-  push: [push]
+on: [push]
+  
     
 jobs:
   run-shell-command:
