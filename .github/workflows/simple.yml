@@ -1,4 +1,7 @@
 name: Actions in action
+
+
+
 on:push:
 
 jobs:
@@ -6,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: echo a message
-      run: echo "Hello world!"
- 
+      -run: echo "Hello world!"
+      
 # on:
 #   push:
 #     branches: [ "main" ]
